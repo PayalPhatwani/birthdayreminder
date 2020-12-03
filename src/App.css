@@ -1,0 +1,53 @@
+body , .button ,html {
+  background: linear-gradient(-45deg, #ce93d8, #ab47bc, #6a1b9a, #4a148c);
+	background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+   background-repeat:no-repeat;
+   height: 100%;
+   
+}
+
+body.modal-open{
+  background: linear-gradient(-45deg, #ce93d8, #ab47bc, #6a1b9a, #4a148c);
+	background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+   background-repeat:no-repeat;
+   height: 100%;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.card {
+        margin: 50px auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+         width: 500px;
+  height: fit-content;
+  padding: 10px 0px 0px 0px;
+}
+
+
+.cardTitle{
+  font-family: 'Antic';
+  font-size: 40px;
+}
+
+.image{
+  border-radius: 50%;
+}
+ .list :hover{
+   background-color: #e0dce6;
+ }
+
+ .icons{
+   color: #4a148c;
+ }
